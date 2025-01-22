@@ -147,10 +147,10 @@
 
         lower_layer {
             bindings = <
-&kp TAB    &kp EXCL         &kp AT_SIGN      &kp HASH         &kp DLLR         &kp PRCNT          &kp CARET  &kp AMPS      &kp STAR   &kp LPAR          &kp RPAR           &kp DEL
-&kp PIPE   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp FSLH   &kp KP_EQUAL  &kp DQT    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp GRAVE
-&kp LCTRL  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &kp BSLH   &kp KP_PLUS   &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE
-                                             &kp ESC          &mo 2            &mt LSHFT ENTER    &kp SPACE  &mo 3         &kp RALT
+&kp TAB    &kp EXCL         &kp AT_SIGN      &kp HASH         &kp DLLR         &kp PRCNT          &kp RU_LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp STAR   &kp LPAR          &kp RPAR           &kp DEL
+&kp PIPE   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp LEFT_BRACE           &kp RIGHT_BRACE        &kp DQT    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp GRAVE
+&kp LCTRL  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &kp LEFT_BRACKET         &kp RIGHT_BRACKET      &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE
+                                             &kp ESC          &mo 2            &mt LSHFT ENTER    &kp SPACE                &mo 3                  &kp RALT
             >;
         };
 
@@ -162,10 +162,10 @@
             //                      |              |             |          |         |     |     |     |
 
             bindings = <
-&kp TAB         &kp F1                &kp F2                &kp F3      &kp F4             &kp F5                  &kp F6     &kp F7    &kp F8    &kp F9  &kp F10     &kp BSPC
-&kp LEFT_SHIFT  &kp F11               &kp F12               &trans      &trans             &trans                  &trans     &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &kp GRAVE
-&kp LCTRL       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP         &trans     &trans    &trans    &trans  &kp INSERT  &trans
-                                                            &kp ESC     &mo 2              &mt LEFT_SHIFT ENTER    &kp SPACE  &mo 3     &kp RALT
+&kp TAB         &kp F1                &kp F2                &kp F3           &kp F4             &kp F5                  &kp F6     &kp F7    &kp F8    &kp F9  &kp F10     &kp BSPC
+&kp LEFT_SHIFT  &kp F11               &kp F12               &kp PAUSE_BREAK  &kp C_PREV         &kp C_NEXT              &trans     &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &kp GRAVE
+&kp LCTRL       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP         &trans     &trans    &trans    &trans  &kp INSERT  &trans
+                                                            &kp ESC          &mo 2              &mt LEFT_SHIFT ENTER    &kp SPACE  &mo 3     &kp RALT
             >;
         };
     };
