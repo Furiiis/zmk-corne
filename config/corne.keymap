@@ -147,9 +147,9 @@
 
         lower_layer {
             bindings = <
-&kp TAB    &kp EXCL         &kp AT_SIGN      &kp HASH         &kp DLLR         &kp PRCNT          &kp RU_LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp STAR   &kp LPAR          &kp RPAR           &kp DEL
-&kp PIPE   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp LEFT_BRACE           &kp RIGHT_BRACE        &kp DQT    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp GRAVE
-&kp LCTRL  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &kp LEFT_BRACKET         &kp RIGHT_BRACKET      &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE
+&kp TAB    &kp EXCL         &kp DQT          &kp PIPE         &kp AMPS         &kp KP_EQUAL       &kp RU_LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp KP_MINUS  &kp DEL
+&kp GRAVE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp LEFT_BRACE           &kp RIGHT_BRACE        &kp PLUS       &kp KP_MINUS      &kp SQT       &kp BSLH
+&kp LCTRL  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &kp LEFT_BRACKET         &kp RIGHT_BRACKET      &kp STAR       &kp SLASH         &kp AT        &kp QUESTION
                                              &kp ESC          &mo 2            &mt LSHFT ENTER    &kp SPACE                &mo 3                  &kp RALT
             >;
         };
