@@ -147,7 +147,7 @@
 
         lower_layer {
             bindings = <
-&kp EXCLAMATION  &kp HASH         &kp DQT          &kp PIPE          &kp AMPS         &kp KP_EQUAL       &kp RU_LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp UNDER     &kp PERCENT
+&kp EXCLAMATION  &kp HASH         &kp DQT          &kp PIPE          &kp AMPS         &kp EQUAL          &kp RU_LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp UNDER     &kp PERCENT
 &kp GRAVE        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp LEFT_BRACE           &kp RIGHT_BRACE        &kp KP_MINUS   &kp KP_PLUS       &kp SQT       &kp BSLH
 &kp LCTRL        &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8   &kp KP_NUMBER_9  &kp KP_NUMBER_0    &kp LEFT_BRACKET         &kp RIGHT_BRACKET      &kp SLASH      &kp ASTRK         &kp QUESTION  &kp AT_SIGN
                                                    &mt LEFT_ALT ESC  &mo 2            &mt LSHFT ENTER    &kp SPACE                &lt 3 DOLLAR           &kp BACKSPACE
