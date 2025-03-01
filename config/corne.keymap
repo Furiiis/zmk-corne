@@ -27,6 +27,16 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <41 10 9>;
         };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <12 0 24>;
+        };
+
+        bootLoaderForRight {
+            bindings = <&bootloader>;
+            key-positions = <11 23 35>;
+        };
     };
 
     behaviors {
