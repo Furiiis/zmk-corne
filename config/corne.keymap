@@ -22,6 +22,11 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <24 2 1>;
         };
+
+        clearAllBluetoothRitght {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <41 10 9>;
+        };
     };
 
     behaviors {
