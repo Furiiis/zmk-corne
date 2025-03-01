@@ -6,6 +6,7 @@
 
 #include "keys_ru.h"
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 #define DEFAULT 0
@@ -14,7 +15,14 @@
 #define TOP     3
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        resetBluetoothConnections {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <24 2 1>;
+        };
+    };
 
     behaviors {
         qq: qq {
